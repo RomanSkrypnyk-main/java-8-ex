@@ -6,8 +6,6 @@
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=RomanSkrypnyk-main&layout=compact)](https://github.com/RomanSkrypnyk-main)
 
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=RomanSkrypnyk-main&show_icons=true&theme=radical)
-
 
 
 
