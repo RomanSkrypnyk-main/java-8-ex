@@ -11,12 +11,12 @@ public class Stream_Methods_Simple_Test {
 		int sum2 = numsArray.stream().filter(x -> x != null).reduce(0,(a,b) -> a + b);
 
 		Optional<Integer> minVal = numsArray.stream().filter(Objects::nonNull).min((val1, val2) -> {
-																					return val1.compareTo(val2);
-																					});
+			return val1.compareTo(val2);
+		});
 
 		Optional<Integer> maxVal = numsArray.stream().filter(Objects::nonNull).max((val1, val2) -> {
-																						return val1.compareTo(val2);
-																					});
+			return val1.compareTo(val2);
+		});
 
 		System.out.println("min: " + minVal.get());
 		System.out.println("max: " + maxVal.get());
